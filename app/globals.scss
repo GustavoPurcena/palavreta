@@ -47,12 +47,25 @@ body {
 
 .header {
   position: fixed;
-  padding: 4px;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 100;
+}
+
+.header_nav {
   background-color: #222;
+  bottom: 2;
+}
+
+.header_expand {
+  button.transition-arrow {
+    > * {
+    transition: 250ms;
+    }
+  .expanded {
+    transform: rotate(180deg);
+    }
+  }
 }
 
 .header__nav-link {
