@@ -41,7 +41,7 @@ export default function Header({siteTitle, navLinks}: HeaderProps) {
 										variant="text"
 										sx={{
 											fontSize: "0.8rem",
-											color: pathname === link.to ? "#666" : "#fff",
+											color: pathname === link.to ? "#666" : "#ffffff",
 										}}
 									>
 										{link.label}
